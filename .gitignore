@@ -1,0 +1,37 @@
+# Secrets & keys - never commit these
+*.pem
+*.key
+*.ppk
+id_rsa*
+*.env
+.env*
+credentials
+*.tfvars
+secrets.*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Java / Maven
+target/
+*.war
+*.class
+
+# Ansible
+*.retry
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
